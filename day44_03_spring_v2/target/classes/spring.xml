@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        我们要将，需要创建对象的类都配置到配置文件中
+            id就是对象的唯一标识
+            class就是对象的全限定名
+            scope表示对象的使用范围:
+                1. singleton 单例，默认值
+                2. prototype 多例, 有可变的成员变量的对象，比如POJO
+            lazy-init表示创建对象的过程是否懒加载: 到了需要创建对象的时候才创建，默认是false
+                1. false 表示不懒加载，就是核心容器创建的时候，就将对象创建出来
+                2. true 表示懒加载，需要使用该对象的时候才去创建
+            init-method 表示对象创建的时候，需要调用的方法, 需要在对象创建之后立即执行的代码就写在这个方法中
+            destroy-method 表示对象销毁的时候，需要调用的方法，需要在对象销毁的时候立即执行的代码就写在这个方法中
+    -->
+    <bean id="userServiceImpl" class="com.itheima.service.impl.UserServiceImpl" scope="prototype"></bean>
+    <bean id="anotherUserService"
+          class="com.itheima.service.impl.AnotherUserService"
+          init-method="initData" destroy-method="saveData">
+    </bean>
+</beans>

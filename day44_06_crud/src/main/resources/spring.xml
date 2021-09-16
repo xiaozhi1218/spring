@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        IOC:创建对象
+            AccountController
+            AccountServiceImpl
+            AccountDaoImpl
+            QueryRunner
+            DataSource
+
+        DI: 给对象的成员变量赋值
+           1. 给AccountController中的AccountService赋值
+           2. 给AccountServiceImpl的accountDao赋值
+           3. 给AccountDaoImpl的queryRunner赋值
+           4. 给QueryRunner中的ds赋值
+    -->
+    <bean id="accountController" class="com.itheima.controller.AccountController">
+        <property name="accountService" ref="accountService"></property>
+    </bean>
+    <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"></property>
+    </bean>
+    <bean id="accountDao" class="com.itheima.dao.impl.AccountDaoImpl">
+        <property name="queryRunner" ref="queryRunner"></property>
+    </bean>
+
+    <bean id="queryRunner" class="org.apache.commons.dbutils.QueryRunner">
+        <!--
+            使用构造函数方式注入dataSource
+        -->
+        <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+    </bean>
+
+    <!--
+        采用静态工厂的方式创建dataSource对象
+    -->
+    <bean id="dataSource" class="com.itheima.utils.DruidUtil" factory-method="getDataSource"></bean>
+</beans>

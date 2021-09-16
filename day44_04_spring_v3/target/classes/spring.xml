@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        Spring核心容器创建对象的方式:
+        1. 无参构造方式(一般情况下都会采用这种方式)
+        2. 静态工厂方式
+           1. 需要指定要调用哪个静态工厂的方法,通过class属性指定
+           2. 需要指定调用静态工厂的哪个方法,通过factory-method属性指定
+        3. 实例工厂方式
+           1. 创建出工厂对象，并且将工厂对象交给spring管理, 采用无参构造方式
+           2. 指定要调用的是哪个对象的方法,通过factory-bean属性进行设置
+           3. 指定要调用对象的哪个方法,通过factory-method属性进行设置
+    -->
+    <bean id="userServiceImpl" class="com.itheima.service.impl.UserServiceImpl"></bean>
+
+    <!--静态工厂-->
+    <!--<bean id="dataSource" class="com.itheima.utils.DruidUtil" factory-method="getDataSource"></bean>-->
+
+    <!--实例工厂-->
+    <bean id="druidUtil2" class="com.itheima.utils.DruidUtil2"></bean>
+
+    <bean id="dataSource" factory-bean="druidUtil2" factory-method="getDataSource"></bean>
+</beans>
