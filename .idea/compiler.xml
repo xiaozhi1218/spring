@@ -2,17 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="day44_02_spring_v1" />
         <module name="day44_01_factory" />
+        <module name="day44_02_spring_v1" />
+        <module name="day44_05_spring_v4" />
+        <module name="day44_03_spring_v2" />
+        <module name="day44_06_crud" />
+        <module name="day44_04_spring_v3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="day44_01_factory" target="1.8" />
       <module name="day44_02_spring_v1" target="1.8" />
+      <module name="day44_03_spring_v2" target="1.8" />
+      <module name="day44_04_spring_v3" target="1.8" />
+      <module name="day44_05_spring_v4" target="1.8" />
+      <module name="day44_06_crud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

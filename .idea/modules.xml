@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day44_01_factory/day44_01_factory.iml" filepath="$PROJECT_DIR$/day44_01_factory/day44_01_factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/day44_02_spring_v1/day44_02_spring_v1.iml" filepath="$PROJECT_DIR$/day44_02_spring_v1/day44_02_spring_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day44_03_spring_v2/day44_03_spring_v2.iml" filepath="$PROJECT_DIR$/day44_03_spring_v2/day44_03_spring_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day44_04_spring_v3/day44_04_spring_v3.iml" filepath="$PROJECT_DIR$/day44_04_spring_v3/day44_04_spring_v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day44_05_spring_v4/day44_05_spring_v4.iml" filepath="$PROJECT_DIR$/day44_05_spring_v4/day44_05_spring_v4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day44_06_crud/day44_06_crud.iml" filepath="$PROJECT_DIR$/day44_06_crud/day44_06_crud.iml" />
     </modules>
   </component>
 </project>

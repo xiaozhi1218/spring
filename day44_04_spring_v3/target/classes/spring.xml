@@ -21,6 +21,5 @@
 
     <!--实例工厂-->
     <bean id="druidUtil2" class="com.itheima.utils.DruidUtil2"></bean>
-
     <bean id="dataSource" factory-bean="druidUtil2" factory-method="getDataSource"></bean>
 </beans>

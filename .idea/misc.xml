@@ -8,6 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/day44_01_factory/pom.xml" />
         <option value="$PROJECT_DIR$/day44_02_spring_v1/pom.xml" />
+        <option value="$PROJECT_DIR$/day44_03_spring_v2/pom.xml" />
+        <option value="$PROJECT_DIR$/day44_04_spring_v3/pom.xml" />
+        <option value="$PROJECT_DIR$/day44_05_spring_v4/pom.xml" />
+        <option value="$PROJECT_DIR$/day44_06_crud/pom.xml" />
       </list>
     </option>
   </component>
