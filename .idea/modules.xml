@@ -8,6 +8,15 @@
       <module fileurl="file://$PROJECT_DIR$/day44_04_spring_v3/day44_04_spring_v3.iml" filepath="$PROJECT_DIR$/day44_04_spring_v3/day44_04_spring_v3.iml" />
       <module fileurl="file://$PROJECT_DIR$/day44_05_spring_v4/day44_05_spring_v4.iml" filepath="$PROJECT_DIR$/day44_05_spring_v4/day44_05_spring_v4.iml" />
       <module fileurl="file://$PROJECT_DIR$/day44_06_crud/day44_06_crud.iml" filepath="$PROJECT_DIR$/day44_06_crud/day44_06_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_01_spring_ioc/day45_01_spring_ioc.iml" filepath="$PROJECT_DIR$/day45_01_spring_ioc/day45_01_spring_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_02_crud/day45_02_crud.iml" filepath="$PROJECT_DIR$/day45_02_crud/day45_02_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_02_spring_di/day45_02_spring_di.iml" filepath="$PROJECT_DIR$/day45_02_spring_di/day45_02_spring_di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_04_mybatis/day45_04_mybatis.iml" filepath="$PROJECT_DIR$/day45_04_mybatis/day45_04_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_05_mybatis_crud/day45_05_mybatis_crud.iml" filepath="$PROJECT_DIR$/day45_05_mybatis_crud/day45_05_mybatis_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_06_mybatis_crud_annotation/day45_06_mybatis_crud_annotation.iml" filepath="$PROJECT_DIR$/day45_06_mybatis_crud_annotation/day45_06_mybatis_crud_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_07_mybatis_crud_test/day45_07_mybatis_crud_test.iml" filepath="$PROJECT_DIR$/day45_07_mybatis_crud_test/day45_07_mybatis_crud_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_08_mybatis_crud_other/day45_08_mybatis_crud_other.iml" filepath="$PROJECT_DIR$/day45_08_mybatis_crud_other/day45_08_mybatis_crud_other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day45_09_dynamicproxy/day45_09_dynamicproxy.iml" filepath="$PROJECT_DIR$/day45_09_dynamicproxy/day45_09_dynamicproxy.iml" />
     </modules>
   </component>
 </project>

@@ -12,6 +12,15 @@
         <option value="$PROJECT_DIR$/day44_04_spring_v3/pom.xml" />
         <option value="$PROJECT_DIR$/day44_05_spring_v4/pom.xml" />
         <option value="$PROJECT_DIR$/day44_06_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_01_spring_ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_02_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_02_spring_di/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_04_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_05_mybatis_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_06_mybatis_crud_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_07_mybatis_crud_test/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_08_mybatis_crud_other/pom.xml" />
+        <option value="$PROJECT_DIR$/day45_09_dynamicproxy/pom.xml" />
       </list>
     </option>
   </component>
