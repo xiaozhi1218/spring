@@ -21,6 +21,13 @@
         <option value="$PROJECT_DIR$/day45_07_mybatis_crud_test/pom.xml" />
         <option value="$PROJECT_DIR$/day45_08_mybatis_crud_other/pom.xml" />
         <option value="$PROJECT_DIR$/day45_09_dynamicproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/day46_01_aop/pom.xml" />
+        <option value="$PROJECT_DIR$/day46_02_aop_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/day46_03_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/day46_04_transfer_v1/pom.xml" />
+        <option value="$PROJECT_DIR$/day46_04_transfer_v2/pom.xml" />
+        <option value="$PROJECT_DIR$/day46_06_transfer_v3/pom.xml" />
+        <option value="$PROJECT_DIR$/day46_07_jdbctemplate/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,19 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="day46_07_jdbctemplate" />
         <module name="day44_02_spring_v1" />
+        <module name="day46_04_transfer_v1" />
+        <module name="day46_01_aop" />
+        <module name="day46_02_aop_annotation" />
         <module name="day44_06_crud" />
         <module name="day45_09_dynamicproxy" />
+        <module name="day46_04_transfer_v2" />
         <module name="day45_06_mybatis_crud_annotation" />
         <module name="day45_02_spring_di" />
         <module name="day45_07_mybatis_crud_test" />
         <module name="day44_03_spring_v2" />
+        <module name="day46_06_transfer_v3" />
         <module name="day44_01_factory" />
         <module name="day44_04_spring_v3" />
         <module name="day45_05_mybatis_crud" />
         <module name="day45_02_crud" />
         <module name="day44_05_spring_v4" />
         <module name="day45_01_spring_ioc" />
+        <module name="day46_03_datasource" />
         <module name="day45_04_mybatis" />
         <module name="day45_08_mybatis_crud_other" />
       </profile>
@@ -40,6 +47,13 @@
       <module name="day45_07_mybatis_crud_test" target="1.8" />
       <module name="day45_08_mybatis_crud_other" target="1.8" />
       <module name="day45_09_dynamicproxy" target="1.8" />
+      <module name="day46_01_aop" target="1.8" />
+      <module name="day46_02_aop_annotation" target="1.8" />
+      <module name="day46_03_datasource" target="1.8" />
+      <module name="day46_04_transfer_v1" target="1.8" />
+      <module name="day46_04_transfer_v2" target="1.8" />
+      <module name="day46_06_transfer_v3" target="1.8" />
+      <module name="day46_07_jdbctemplate" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
