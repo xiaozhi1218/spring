@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+        依赖注入:
+            方式一: 采用构造函数方式进行注入,使用constructor-arg
+                   name属性就是构造函数的参数名
+                   ref属性就是要注入的对象的id
+           方式二: 采用set方法的方式进行注入，使用property标签
+                  name属性就是要赋值的变量名
+                  ref属性就是要注入的对象的id
+        注入的数据类型:
+            1. 注入一个spring核心容器中有的对象,那么就使用ref属性="对象的id"
+            2. 注入一个简单类型的数据(String、基本数据类型),那么就使用value属性="要注入的值"
+            3. 数组类型(了解)
+    -->
+    <bean id="userService" class="com.itheima.service.impl.UserServiceImpl">
+        <!--<constructor-arg name="userDao" ref="userDao"></constructor-arg>-->
+        <property name="userDao" ref="userDao"></property>
+        <property name="name" value="张三丰"></property>
+        <!--注入数组-->
+        <property name="strs">
+            <array>
+                <value>hello</value>
+                <value>你好</value>
+                <value>hi</value>
+                <value>萨瓦迪卡</value>
+            </array>
+        </property>
+        <!--注入map-->
+        <property name="map">
+            <map>
+                <entry key="aa" value="11"></entry>
+                <entry key="bb" value="22"></entry>
+                <entry key="cc" value="33"></entry>
+                <entry key="dd" value="44"></entry>
+            </map>
+        </property>
+    </bean>
+
+    <!--
+        采用p命名空间的方式进行依赖注入
+            1. 在约束中添加p命名空间的约束
+    -->
+    <bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl" p:age="20">
+    </bean>
+</beans>
