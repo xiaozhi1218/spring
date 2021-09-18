@@ -32,7 +32,7 @@ public class JDKProxyTest {
                     //执行查询所有的sql语句
                     String sql = "select * from account";
                     Class.forName("com.mysql.jdbc.Driver");
-                    Connection conn = DriverManager.getConnection("jdbc:mysql:///day29?characterEncoding=utf8", "root", "123");
+                    Connection conn = DriverManager.getConnection("jdbc:mysql:///day29?characterEncoding=utf8", "root", "root");
                     PreparedStatement pstm = conn.prepareStatement(sql);
                     ResultSet rst = pstm.executeQuery();
                     List<Account> accountList = new ArrayList<>();

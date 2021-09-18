@@ -31,7 +31,7 @@ public class SpringConfiguration {
     public DataSource createDataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUsername("root");
-        dataSource.setPassword("123");
+        dataSource.setPassword("root");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql:///day29?characterEncoding=utf8");
         return dataSource;
