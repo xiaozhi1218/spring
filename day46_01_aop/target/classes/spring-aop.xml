@@ -43,7 +43,7 @@
     -->
     <aop:config>
         <!--
-            expression是切入点表达式，它的作用是用一个表达式描述切入点
+            expression是切入点表达式，它的作用是用一个表达式描述切入点 返回值 类.方法(* or ..) * 必须有参数 .. 参数可有可无
         -->
         <aop:pointcut id="pt1" expression="execution(* com.itheima.service.impl.UserServiceImpl.*(..))"/>
 
